@@ -1,0 +1,41 @@
+body {
+  background-image: url(https://images.pexels.com/photos/3214110/pexels-photo-3214110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  font-family: "Helvetica", Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+h1 {
+  color: #ffa500;
+  padding: 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 3vw;
+  margin: 10px;
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 50vw;
+  height: 10vh;
+}
+button:hover {
+  background-color: #ffa500;
+}
+.student {
+  font-size: 1vw;
+  color: #ffa500;
+  font-family: monospace;
+  font-weight: bold;
+}
